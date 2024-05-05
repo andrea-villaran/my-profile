@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #E5EFF1;
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+    background-color: #DF7B7B; /* Pastel purple */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.box {
+    background-color: #ffffff; /* White */
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.info h2,
+.work-experience h2,
+.education h2,
+.social h2 {
+    color: #C45D6F; /* Dark pastel purple */
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #C45D6F; /* Dark pastel purple */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #C45D6F; /* Darker pastel purple */
+}
+
+.social ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.social ul li {
+    margin-right: 10px; /* Added more space between social icons */
+}
+
+.social ul li:first-child {
+    margin-right: 10px; /* Keep space on the left of the first social icon */
+}
+
+.social-icon {
+    width: 40px; /* Adjust the width of social icons */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.social-box {
+    width: 100%;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+}
